@@ -1,0 +1,16 @@
+{
+  "name": "max-auto-post",
+  "version": "1.0.0",
+  "description": "Авто-постинг в каналы MAX: картинки + текст + кнопки по расписанию",
+  "type": "module",
+  "main": "post.js",
+"scripts": {
+    "start": "node post.js",
+    "panel": "node server.js"
+  },
+  "dependencies": {
+    "@maxhub/max-bot-api": "^1.0.2",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

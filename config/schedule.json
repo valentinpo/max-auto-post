@@ -1,0 +1,70 @@
+{
+  "version": "1.1",
+  "comment": "Расписание публикаций. timezone применяется ко всем временам. media — файл из папки contents/ (локальный путь). channels — имена из channels.json или chat_id.",
+  "timezone": "+05:00",
+  "posts": [
+    {
+      "id": "post-1793001585369",
+      "time": "09:00",
+      "channels": [
+        "Загляни в цех"
+      ],
+      "text": "опдшгппдпна",
+      "media": "contents/INVOKA-freedom-8512c988-4705-4ffe-9955-ab7dbba1f966-res-0.png",
+      "buttons": []
+    },
+    {
+      "id": "post-1793006987979",
+      "time": "09:00",
+      "channels": [
+        "Загляни в цех"
+      ],
+      "text": "ПРОВЕРКА",
+      "media": "contents/copy-1793006525310.png",
+      "buttons": []
+    },
+    {
+      "id": "evening-1",
+      "time": "19:00",
+      "channels": [
+        "Загляни в цех"
+      ],
+      "text": "Автоматизация рутины — аналитика и дашборды для вашего бизнеса. Расскажите о задаче.",
+      "media": "contents/copy-1793006525310.png",
+      "buttons": [
+        {
+          "text": "Портфолио",
+          "url": "https://botdata.ru/portfolio/?utm_source=max&utm_medium=messenger&utm_campaign=channel_evening"
+        }
+      ]
+    },
+    {
+      "id": "morning-1",
+      "time": "12:25",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "channels": [
+        "Загляни в цех"
+      ],
+      "text": "Доброе утро! Пишем ботов для Telegram и MAX — от идеи до запуска за неделю.",
+      "media": "contents/INVOKA-freedom-8512c988-4705-4ffe-9955-ab7dbba1f966-res-0.png",
+      "buttons": [
+        {
+          "text": "Открыть сайт",
+          "url": "https://botdata.ru/?utm_source=max&utm_medium=messenger&utm_campaign=channel_morning"
+        },
+        {
+          "text": "Задать вопрос",
+          "url": "https://max.ru/u/ВАШ_НИК_В_MAX"
+        }
+      ]
+    }
+  ]
+}
